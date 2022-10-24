@@ -10,5 +10,8 @@ USE persons_db;
 #사용하는 데이터 베이스 읽어내기
 SELECT DATABASE();
 
+#데이터 베이스 완전히 삭제하기
+DROP DATABASE persons_db;
+
 
 
