@@ -1,0 +1,8 @@
+CREATE TABLE Employees(
+id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+first_name VARCHAR(100) NOT NULL,
+middle_name VARCHAR(100),
+last_name VARCHAR(100) NOT NULL,
+age INT NOT NULL,
+current_status VARCHAR(100) NOT NULL DEFAULT 'employed'
+);
